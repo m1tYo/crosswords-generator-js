@@ -437,7 +437,7 @@ function fillCell(matrix, position, word, words, direction, isStartCell = false,
 function formatMatrixIntoUI(matrix) {
     let text = '';
     for (row of matrix) {
-        let rowString = row.reduce((pre, cur) => `${pre}${cur.value === '' ? ' ' : cur.value} `, '');
+        let rowString = row.reduce((pre, cur) => `${pre}${cur.value === '' ? ' ' : cur.value}`, '');
         text += (rowString + '\n');
     }
 
