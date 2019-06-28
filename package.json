@@ -1,22 +1,50 @@
 {
-  "name": "crosswords-generator",
-  "version": "0.0.3",
-  "description": "crosswords generator",
-  "main": "core.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "git+https://github.com/m1tYo/crosswords-generator-js.git",
+  "_id": "crosswords-generator@0.0.3",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/crosswords-generator",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/m1tYo/crosswords-generator-js.git",
+    "rawSpec": "https://github.com/m1tYo/crosswords-generator-js.git",
+    "saveSpec": "git+https://github.com/m1tYo/crosswords-generator-js.git",
+    "fetchSpec": "https://github.com/m1tYo/crosswords-generator-js.git",
+    "gitCommittish": null
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/m1tYo/crosswords-generator-js.git#6604941b67616559a2a16f30dcacda7cdb22c48f",
+  "_spec": "https://github.com/m1tYo/crosswords-generator-js.git",
+  "_where": "C:\\wamp64\\www\\caramelstudio\\nodecrossword",
+  "author": {
+    "name": "xinyu lee"
+  },
+  "bugs": {
+    "url": "https://github.com/heartAndRain/crosswords-generator-js/issues"
+  },
+  "dependencies": {
+    "minimist": "1.2.0"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "crosswords generator",
+  "homepage": "https://github.com/heartAndRain/crosswords-generator-js#readme",
+  "keywords": [
+    "crosswords"
+  ],
+  "license": "MIT",
+  "main": "core.js",
+  "name": "crosswords-generator",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/heartAndRain/crosswords-generator-js.git"
   },
-  "keywords": [
-    "crosswords"
-  ],
-  "author": "xinyu lee",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/heartAndRain/crosswords-generator-js/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/heartAndRain/crosswords-generator-js#readme"
+  "version": "0.0.3"
 }
