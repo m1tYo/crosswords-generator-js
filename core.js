@@ -477,7 +477,7 @@ function init(matrix, wordsMap) {
  * @param length
  * @param onFinish
  */
-function run(wordsList, wordsMap, length, onFinish) {
+function run(wordsList, wordsMap, length, retries, onFinish) {
     const initMatrix = generateMatrix(length, length);
     const allWordsUsedSet = new Set();
     let usedWordsQueue = [];
@@ -496,6 +496,11 @@ function run(wordsList, wordsMap, length, onFinish) {
         newUsedWords.forEach(({words}) => allWordsUsedSet.add(words));
 
         matrix = newMatrix;
+    }
+
+    if (allWordsUsedSet.size < 12 && retries > 0) {
+        retries--;
+        return run(wordsList, wordsMap, length, retries, onFinish);
     }
 
     onFinish && onFinish(matrix, allWordsUsedSet)

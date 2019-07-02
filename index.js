@@ -48,7 +48,7 @@ function formatMatrixIntoJSON(matrix, name) {
     });
 }
 
-run(wordsList, wordsMap, MATRIX_LENGTH, (matrix, wordsSet) => {
+run(wordsList, wordsMap, MATRIX_LENGTH, 5, (matrix, wordsSet) => {
     formatMatrixIntoUI(matrix);
     formatMatrixIntoJSON(matrix, 'result.json');
 });
